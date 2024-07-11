@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta name="description" content="A website Official Website Of VortexX Games Development where we Publish aour Games, such as InfinityJump">
+    <meta name="keywords" content="VortexX, Vortexx, VortexX games, VortexX dev, VotexX Official Website, Vortex.com, Vortex, InfinityJump, infinity jump, Game dev">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VortexX Official Website </title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    
+    <nav>
+        <img src="image/logo.png" alt="logo">
+        <div class="dd">
+    <button class="dd-btn"></button>
+    <div class="dd-content">
+      <a href="#"> Home </a>
+      <a href="#"> About </a>
+      <a href="#"> Articles </a>
+    </div>
+  </div> 
+        <div class="mode">
+        
+        <button id="modeToggle"onclick="toggleText()">Darkmode?</button>
+        </div>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Our Games</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+     <header>
+        
+        <h1>VortexX Game Development Studio</h1>
+    </header>
+    
+    <main>
+        
+            <h2>Welcome to Our Website</h2>
+            <p>detracto tale placerat dolor ligula dicit invidunt gloriatur sodales elitr dicam commodo ante mei iusto petentium posse expetendis efficiantur aenean gubergren nostra scripta sit orci ius neglegentur quaeque orci habitantverear posse corrumpit veniam facilisis facilis iriure inciderint ligula faucibus euripidis reprehendunt magnis graece fugit nostra delectus tincidunt volumus fusce fabulas audire tellus condimentum epicuri eleifend eirmod lectus atqui regioneiudicabit voluptaria dignissim vivamus dissentiunt te ignota alterum lectus egestas doctus conubia scripserit animal maluisset porro nostrum minim tibique pri netus vivendo regione nominavi porttitor fastidii cum reque ferri vel</p>
+            <p>suas amet aliquip facilisi quis maiestatis falli cetero accommodare option pertinacia luctus sonet dictumst appareat explicari facilisi petentium quisque menandri tristique solum audire appareat fabellas simul graece alienum discere invenire</p>
+        </section>
+        <hr/>
+        <section id="games">
+            <h2>Our Games</h2>
+            
+                
+            
+            
+            <div class="game1">
+                <p class="ttl">InfinityJump</p>
+               
+                 <a class="download" href="#">Download</a>
+                 
+                <img src="image/game1.png" alt="game1">
+                <p>
+                    Dodge saws, spikes, collect coins. Unlock skins. Set highscores. Endless fun!
+
+Embark on an exhilarating journey with Infinity Jump, the ultimate 2D casual arcade platformer that challenges your reflexes and skills! Navigate through perilous obstacles like saws and spikes, while collecting precious coins to unlock a myriad of captivating ball skins, from the Dazzling DiscoBlud and the Electrifying TronBlud to the Sporty Football. How long can you last in the unpredictable endless world of Infinity Jump? 
+                </p><button id="desc"onclick="toggleText()">Read More</button>
+            </div>
+        </section>
+        <hr/>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a passionate team of game developers dedicated to creating unforgettable gaming experiences.</p>
+        </section>
+        <hr/>
+        <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@ourgamestudio.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <hr/>
+    <h3>Write a Review</h3>
+    <form id="reviewForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="review">Review:</label>
+        <textarea id="review" name="review" required></textarea>
+        
+        <button type="submit">Send Review</button>
+    </form>
+</section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Our Game Development Studio. All rights reserved.</p>
+    </footer>
+ <script>
+        function toggleText() {
+            var button = document.querySelector('#modeToggle');
+            if (button.textContent === 'Darkmode?') {
+                button.textContent = 'Lightmode?';
+            } else {
+                button.textContent = 'Darkmode?';
+            }
+        }
+   </script>
+   
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
